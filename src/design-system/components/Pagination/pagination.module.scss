@@ -1,0 +1,25 @@
+.pagination-container {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  grid-gap: var(--spacing-medium);
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.pagination-container-button {
+  display: flex;
+  gap: var(--spacing-small);
+}
+
+.pagination-text {
+  color: var(--text-pagination-color);
+  font-size: 1rem;
+}
+
+.pagination-text-pages {
+  color: var(--text-pagination-color);
+  font-size: 1rem;
+  margin-left: 8px;
+}

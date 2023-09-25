@@ -1,7 +1,10 @@
+import { CardList, Footer } from "./design-system/components";
+
 function App() {
   return (
     <>
-      <h1>Morty App</h1>
+      <CardList />
+      <Footer />
     </>
   );
 }

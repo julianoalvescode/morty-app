@@ -1,0 +1,28 @@
+.live-status {
+  display: flex;
+  gap: var(--spacing-small);
+  align-items: center;
+}
+
+.live-status-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.live-status-text {
+  font-size: 0.8rem;
+  color: var(--color-grey);
+}
+
+.Alive {
+  background: var(--color-green);
+}
+
+.unknown {
+  background: var(--color-grey);
+}
+
+.Dead {
+  background-color: var(--color-red);
+}

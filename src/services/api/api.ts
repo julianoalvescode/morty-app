@@ -1,4 +1,5 @@
 import {
+  GetAllCharacterParams,
   GetAllCharacterResponse,
   GetSingleCharacterParams,
   GetSingleCharacterResponse,
@@ -6,9 +7,14 @@ import {
 
 import { AxiosAPI } from "./axios";
 
+import queryString from "query-string";
+
 class ApiService {
-  async getAllCharacters(): Promise<GetAllCharacterResponse> {
-    const { data } = await AxiosAPI.get(`/character`);
+  async getAllCharacters(
+    params: GetAllCharacterParams
+  ): Promise<GetAllCharacterResponse> {
+    const query = queryString.stringify(params);
+    const { data } = await AxiosAPI.get(`/character?${query}`);
     return data;
   }
 

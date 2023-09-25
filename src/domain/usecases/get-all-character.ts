@@ -1,7 +1,9 @@
 import { InfoPagination } from "../models";
 import { Character } from "../models/character";
 
-export type GetAllCharacterParams = Record<string, never>;
+export type GetAllCharacterParams = {
+  page?: number;
+};
 
 export type GetAllCharacterResponse = {
   info: InfoPagination;

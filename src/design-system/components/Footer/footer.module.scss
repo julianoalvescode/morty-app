@@ -1,0 +1,15 @@
+.footer-container {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  grid-gap: var(--spacing-medium);
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.footer-container-text {
+  color: var(--text-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
