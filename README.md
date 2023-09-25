@@ -31,22 +31,22 @@ Este portal foi criado para entusiastas da série e oferece:
 
 1. Clone este repositório:
 
-\```bash
+\`
 git clone https://github.com/julianoalvescode/morty-app.git
-\```
+\`
 
 2. Navegue até o diretório do projeto e instale as dependências:
 
-\```bash
+\`
 cd morty-app
 npm install
-\```
+\`
 
 3. Inicie o servidor de desenvolvimento:
 
-\```bash
+\`
 npm start
-\```
+\`
 
 A aplicação estará disponível em `http://localhost:5173/`.
 
