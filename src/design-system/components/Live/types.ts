@@ -1,3 +1,3 @@
 export type LiveStatusProps = {
-  status?: "Alive" | "Dead" | "unknown";
+  status?: "Alive" | "Dead" | "unknown" | string;
 };

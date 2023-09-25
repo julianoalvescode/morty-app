@@ -1,4 +1,6 @@
-export function getTextStatus(status?: "Alive" | "Dead" | "unknown"): string {
+export function getTextStatus(
+  status?: "Alive" | "Dead" | "unknown" | string
+): string {
   if (!status) return "";
 
   switch (status) {
