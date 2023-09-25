@@ -1,27 +1,64 @@
-# React + TypeScript + Vite
+# Rick and Morty Web Portal 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao portal Rick and Morty, um projeto React que oferece uma imersão total no universo desta série animada incrivelmente popular.
 
-Currently, two official plugins are available:
+![Rick and Morty Logo](https://rickandmortyapi.com/api/character/avatar/2.jpeg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Índice
 
-## Expanding the ESLint configuration
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação e Uso](#instalação-e-uso)
+- [Contribuições](#contribuições)
+- [Licença](#licença)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📖 Sobre o Projeto
 
-- Configure the top-level `parserOptions` property like this:
+Este portal foi criado para entusiastas da série e oferece:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Lista dos personagens.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Tecnologias Utilizadas
+
+- React
+- React-query
+- Axios
+- Sass
+- Vitest
+- E outras bibliotecas complementares...
+
+## 💼 Instalação e Uso
+
+1. Clone este repositório:
+
+\```bash
+git clone https://github.com/julianoalvescode/morty-app.git
+\```
+
+2. Navegue até o diretório do projeto e instale as dependências:
+
+\```bash
+cd morty-app
+npm install
+\```
+
+3. Inicie o servidor de desenvolvimento:
+
+\```bash
+npm start
+\```
+
+A aplicação estará disponível em `http://localhost:5173/`.
+
+## 🤝 Contribuições
+
+1. Faça um Fork do projeto.
+2. Crie uma Branch com sua feature: `git checkout -b minha-feature`.
+3. Commit suas mudanças: `git commit -m 'feat: Minha nova feature'`.
+4. Push a sua Branch: `git push origin minha-feature`.
+
+Após a fusão de seu pull request ser realizada, você pode excluir sua branch.
+
+## 📜 Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
