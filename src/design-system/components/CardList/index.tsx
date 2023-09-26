@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useAllCharacter } from "../../../presenation/hooks";
+import { useAllCharacter } from "../../../presentation/hooks";
 import { Card, Pagination } from "./../";
 
 import styles from "./card-list.module.scss";
