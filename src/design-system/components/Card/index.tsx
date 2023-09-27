@@ -21,7 +21,9 @@ export function Card(params: CardProps) {
           <LiveStatus status={params?.status} />
         </div>
         <div className={styles["card-info-text-container"]}>
-          <h4 className={styles["card-info-text"]}>Last known location:</h4>
+          <h4 className={styles["card-info-text"]}>
+            Última localização conhecida::
+          </h4>
           <h3 className={styles["card-info-text-main"]}>
             {params?.location?.name}
           </h3>

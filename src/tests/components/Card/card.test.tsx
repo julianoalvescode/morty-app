@@ -9,7 +9,7 @@ describe("Card Component", () => {
 
     expect(getByAltText(MockCharacter.name)).toBeInTheDocument();
     expect(getByText("Vivo")).toBeInTheDocument();
-    expect(getByText("Last known location:")).toBeInTheDocument();
+    expect(getByText("Última localização conhecida::")).toBeInTheDocument();
     expect(getByText(MockCharacter.location.name)).toBeInTheDocument();
   });
 });
