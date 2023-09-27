@@ -45,7 +45,7 @@ Este portal foi criado para entusiastas da série e oferece:
 3. Inicie o servidor de desenvolvimento:
 
 ```bash
-  npm start
+  npm run dev
 ```
 
 A aplicação estará disponível em `http://localhost:5173/`.
