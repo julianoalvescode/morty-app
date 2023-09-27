@@ -10,7 +10,7 @@
     "build:prod": "tsc && vite build --mode production",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest --run",
     "prepare": "husky install",
     "coverage": "vitest run --coverage"
   },
