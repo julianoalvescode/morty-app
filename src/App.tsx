@@ -1,4 +1,4 @@
-import { CardList, Footer } from "./design-system/components";
+import { CardList, Footer } from "@/design-system/components";
 
 function App() {
   return (

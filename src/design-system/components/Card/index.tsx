@@ -1,5 +1,5 @@
 import { CardProps } from "./types";
-import { LiveStatus } from "./../Live";
+import { LiveStatus } from "@/design-system/components";
 
 import styles from "./card.module.scss";
 

@@ -1,10 +1,8 @@
 import { useState } from "react";
-import { useAllCharacter } from "../../../presentation/hooks";
-import { Card, Pagination } from "./../";
+import { useAllCharacter } from "@/presentation/hooks";
+import { Card, Pagination, SkeletonCard } from "@/design-system/components";
 
 import styles from "./card-list.module.scss";
-
-import { SkeletonCard } from "./../";
 
 export function CardList() {
   const [page, setPage] = useState<number>(1);

@@ -1,7 +1,7 @@
 import { PaginationItem } from "./Item";
 import * as I from "./types";
 
-import { generatePagesArray } from "../../../presentation/helpers";
+import { generatePagesArray } from "@/presentation/helpers";
 import styles from "./pagination.module.scss";
 
 const siblingsCount = 1;
@@ -9,7 +9,7 @@ export function Pagination({
   onPageChange,
   totalCountOfRegisters,
   currentPage = 1,
-  registersPerPage,
+  registersPerPage = 0,
 }: I.PaginationProps) {
   const lastPage = Math.ceil(totalCountOfRegisters / registersPerPage);
 

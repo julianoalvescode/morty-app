@@ -1,4 +1,4 @@
-import { getTextStatus } from "../../../presentation/helpers";
+import { getTextStatus } from "@/presentation/helpers";
 import { LiveStatusProps } from "./types";
 
 import styles from "./live-status.module.scss";

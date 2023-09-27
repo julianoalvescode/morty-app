@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { API } from "../../services/api/api";
+import { API } from "@/services/api/api";
 
 export function useSingleCharacter(id: string) {
   const { data, isLoading } = useQuery(

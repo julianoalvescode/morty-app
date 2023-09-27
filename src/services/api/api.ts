@@ -3,7 +3,7 @@ import {
   GetAllCharacterResponse,
   GetSingleCharacterParams,
   GetSingleCharacterResponse,
-} from "../../domain/usecases";
+} from "@/domain/usecases";
 
 import { AxiosAPI } from "./axios";
 
