@@ -1,4 +1,4 @@
-import { getTextStatus } from "../../presentation/helpers";
+import { getTextStatus } from "@/presentation/helpers";
 
 describe("getTextStatus", () => {
   it('should return "LIVE" if status is "live"', () => {

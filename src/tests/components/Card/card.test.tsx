@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import { Card } from "./../../../design-system/components";
+import { Card } from "@/design-system/components";
 import { MockCharacter } from "../../__ mocks __/character";
 
 describe("Card Component", () => {

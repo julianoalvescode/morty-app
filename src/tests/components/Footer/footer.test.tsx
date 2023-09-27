@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import { Footer } from "./../../../design-system/components";
+import { Footer } from "@/design-system/components";
 
 describe("Footer", () => {
   it("renders without crashing", () => {
