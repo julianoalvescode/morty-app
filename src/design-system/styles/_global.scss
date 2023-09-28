@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: rgb(40, 42, 46);
+  background-color: var(--background-color);
   -webkit-font-smoothing: antialiased;
 }
 
