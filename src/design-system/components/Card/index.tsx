@@ -2,6 +2,7 @@ import { CardProps } from "./types";
 import { LiveStatus } from "@/design-system/components";
 
 import styles from "./card.module.scss";
+import { getNumberEpisode } from "@/presentation/helpers";
 
 export function Card(params: CardProps) {
   if (!params) {
@@ -22,13 +23,17 @@ export function Card(params: CardProps) {
         </div>
         <div className={styles["card-info-text-container"]}>
           <h4 className={styles["card-info-text"]}>
-            Última localização conhecida::
+            Última localização conhecida:
           </h4>
           <h3 className={styles["card-info-text-main"]}>
             {params?.location?.name}
           </h3>
         </div>
-        <div className={styles["card-info-text-container"]}></div>
+        <div className={styles["card-info-text-container"]}>
+          <h4 className={styles["card-info-text"]}>
+            {getNumberEpisode(params?.episode)}
+          </h4>
+        </div>
       </div>
     </div>
   );

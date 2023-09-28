@@ -22,3 +22,9 @@ export function generatePagesArray(from: number, to: number): Array<number> {
     })
     .filter((page) => page > 0);
 }
+
+export function getNumberEpisode(episode: string[]): string {
+  if (!episode) return "Nenhum episódio";
+  const numberEpisode = episode.length;
+  return `${numberEpisode} episódio${numberEpisode > 1 ? "s" : ""}`;
+}

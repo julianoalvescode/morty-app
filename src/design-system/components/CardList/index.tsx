@@ -11,22 +11,22 @@ export function CardList() {
   if (isLoading) {
     return (
       <>
-        <div className={styles["card-list"]}>
+        <main className={styles["card-list"]}>
           {Array.from({ length: 20 }).map((_, index) => (
             <SkeletonCard key={index} />
           ))}
-        </div>
+        </main>
       </>
     );
   }
 
   return (
     <>
-      <div className={styles["card-list"]}>
+      <main className={styles["card-list"]}>
         {data?.results?.map((item) => (
           <Card key={item.id} {...item} />
         ))}
-      </div>
+      </main>
       <ul className={styles["card-list-pagination"]}>
         <Pagination
           onPageChange={setPage}

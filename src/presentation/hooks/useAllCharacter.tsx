@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+import { useQuery } from "@tanstack/react-query"; 
 import { API } from "@/services/api/api";
 import { GetAllCharacterParams } from "@/domain/usecases";
 
