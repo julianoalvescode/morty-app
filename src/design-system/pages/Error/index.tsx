@@ -1,6 +1,6 @@
 import styles from "./error.page.module.scss";
 
-export function ErrorPage() {
+export default function ErrorPage() {
   return (
     <main className={styles["error-container"]}>
       <h1 className={styles["error-title"]}>Oops!</h1>

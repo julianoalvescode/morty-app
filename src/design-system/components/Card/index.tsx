@@ -15,7 +15,7 @@ export function Card(params: CardProps) {
         className={styles["card-image"]}
         src={params?.image}
         alt={params?.name}
-        loading="lazy"
+        loading='lazy'
       />
       <div className={styles["card-info-insider"]}>
         <div className={styles["card-info-text-container"]}>
