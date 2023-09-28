@@ -11,17 +11,16 @@ export function Card(params: CardProps) {
 
   return (
     <div className={styles.card}>
+      <div className={styles["card-info-text-container"]}>
+        <h1 className={styles["card-title"]}>{params?.name}</h1>
+      </div>
       <img
         className={styles["card-image"]}
         src={params?.image}
         alt={params?.name}
-        loading='lazy'
+        loading="lazy"
       />
       <div className={styles["card-info-insider"]}>
-        <div className={styles["card-info-text-container"]}>
-          <h1 className={styles["card-title"]}>{params?.name}</h1>
-          <LiveStatus status={params?.status} />
-        </div>
         <div className={styles["card-info-text-container"]}>
           <h4 className={styles["card-info-text"]}>
             Última localização conhecida:
@@ -34,6 +33,7 @@ export function Card(params: CardProps) {
           <h4 className={styles["card-info-text"]}>
             {getNumberEpisode(params?.episode)}
           </h4>
+          <LiveStatus status={params?.status} />
         </div>
       </div>
     </div>
