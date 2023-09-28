@@ -4,3 +4,4 @@ export * from "./Pagination";
 export * from "./Footer";
 export * from "./SkeletonCard";
 export * from "./Live";
+export * from "./Spinner";

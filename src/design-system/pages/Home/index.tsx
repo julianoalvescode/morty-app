@@ -1,6 +1,6 @@
 import { CardList, Footer } from "@/design-system/components";
 
-export function Home() {
+export default function Home() {
   return (
     <>
       <CardList />
