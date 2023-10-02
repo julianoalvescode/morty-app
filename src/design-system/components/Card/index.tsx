@@ -22,17 +22,17 @@ export function Card(params: CardProps) {
       />
       <div className={styles["card-info-insider"]}>
         <div className={styles["card-info-text-container"]}>
-          <h4 className={styles["card-info-text"]}>
+          <p className={styles["card-info-text"]}>
             Última localização conhecida:
-          </h4>
+          </p>
           <h3 className={styles["card-info-text-main"]}>
             {params?.location?.name}
           </h3>
         </div>
         <div className={styles["card-info-text-container"]}>
-          <h4 className={styles["card-info-text"]}>
+          <p className={styles["card-info-text"]}>
             {getNumberEpisode(params?.episode)}
-          </h4>
+          </p>
           <LiveStatus status={params?.status} />
         </div>
       </div>

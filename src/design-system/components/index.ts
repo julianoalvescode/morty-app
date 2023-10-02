@@ -5,3 +5,4 @@ export * from "./Footer";
 export * from "./SkeletonCard";
 export * from "./Live";
 export * from "./Spinner";
+export * from "./Header";
