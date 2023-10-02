@@ -4,13 +4,18 @@ import * as I from "./types";
 import { generatePagesArray } from "@/presentation/helpers";
 import styles from "./pagination.module.scss";
 
-const siblingsCount = 1;
 export function Pagination({
   onPageChange,
   totalCountOfRegisters,
   currentPage = 1,
   registersPerPage = 0,
 }: I.PaginationProps) {
+  const siblingsCount = 1;
+
+  if (!totalCountOfRegisters && !registersPerPage) {
+    return <></>;
+  }
+
   const lastPage = Math.ceil(totalCountOfRegisters / registersPerPage);
 
   const previousPage =
