@@ -1,0 +1,28 @@
+.status-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  animation: pulse 0.5s infinite alternate;
+  background-color: var(--primary);
+
+  &--online {
+    background-color: var(--primary);
+  }
+}
+
+.status-circle--online {
+  background-color: var(--primary);
+}
+
+.status-circle--offline {
+  background-color: #ff6347;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.25);
+  }
+}

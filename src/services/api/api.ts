@@ -11,9 +11,9 @@ import queryString from "query-string";
 
 class ApiService {
   async getAllCharacters(
-    params: GetAllCharacterParams
+    params?: GetAllCharacterParams
   ): Promise<GetAllCharacterResponse> {
-    const query = queryString.stringify(params);
+    const query = params ? queryString.stringify(params) : "";
     const { data } = await AxiosAPI.get(`/character?${query}`);
     return data;
   }
