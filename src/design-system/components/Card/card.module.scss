@@ -32,11 +32,9 @@
     height: 300px;
     object-fit: cover;
     transition: all 0.3s ease-in-out;
-    filter: grayscale(40%);
 
     &:hover {
       border: 6px solid var(--secondary);
-      transform: scale(1.05);
       filter: none;
     }
   }
