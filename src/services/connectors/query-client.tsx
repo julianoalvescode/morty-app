@@ -8,6 +8,7 @@ const query = new QueryClient({
       staleTime: 1000 * 60 * 60, // 1 hour,
       cacheTime: 1000 * 60 * 40, // 40 minutes,
       _optimisticResults: "optimistic",
+      refetchOnReconnect: "always",
     },
   },
 });
